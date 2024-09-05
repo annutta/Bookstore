@@ -1,0 +1,59 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automarket", "Automarket\Automarket.csproj", "{FC4227BE-9DE6-4D18-B365-84577783F722}"
+	ProjectSection(ProjectDependencies) = postProject
+		{290C3659-397C-49EB-B8FD-A8362C126F34} = {290C3659-397C-49EB-B8FD-A8362C126F34}
+		{F24B3195-011A-413A-BB51-55214EC1487D} = {F24B3195-011A-413A-BB51-55214EC1487D}
+		{FA46BBB2-91AA-423C-AB66-B8AE8345B305} = {FA46BBB2-91AA-423C-AB66-B8AE8345B305}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{33A76B5C-9137-44B3-90A2-848B79FE159D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DED31035-2620-41C1-94D0-44381F8F5E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automarket.DAL", "Automarket.DAL\Automarket.DAL.csproj", "{290C3659-397C-49EB-B8FD-A8362C126F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automarket.Domain", "Automarket.Domain\Automarket.Domain.csproj", "{FA46BBB2-91AA-423C-AB66-B8AE8345B305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{8970E8CA-B60E-4F79-87C7-48DEAABD3C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automarket.Service", "Automarket.Service\Automarket.Service.csproj", "{F24B3195-011A-413A-BB51-55214EC1487D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC4227BE-9DE6-4D18-B365-84577783F722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4227BE-9DE6-4D18-B365-84577783F722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4227BE-9DE6-4D18-B365-84577783F722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4227BE-9DE6-4D18-B365-84577783F722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290C3659-397C-49EB-B8FD-A8362C126F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290C3659-397C-49EB-B8FD-A8362C126F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290C3659-397C-49EB-B8FD-A8362C126F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290C3659-397C-49EB-B8FD-A8362C126F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA46BBB2-91AA-423C-AB66-B8AE8345B305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA46BBB2-91AA-423C-AB66-B8AE8345B305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA46BBB2-91AA-423C-AB66-B8AE8345B305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA46BBB2-91AA-423C-AB66-B8AE8345B305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24B3195-011A-413A-BB51-55214EC1487D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24B3195-011A-413A-BB51-55214EC1487D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24B3195-011A-413A-BB51-55214EC1487D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24B3195-011A-413A-BB51-55214EC1487D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{290C3659-397C-49EB-B8FD-A8362C126F34} = {33A76B5C-9137-44B3-90A2-848B79FE159D}
+		{FA46BBB2-91AA-423C-AB66-B8AE8345B305} = {DED31035-2620-41C1-94D0-44381F8F5E2B}
+		{F24B3195-011A-413A-BB51-55214EC1487D} = {8970E8CA-B60E-4F79-87C7-48DEAABD3C30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52B46ACA-D445-488D-B374-4B905605BEDC}
+	EndGlobalSection
+EndGlobal
